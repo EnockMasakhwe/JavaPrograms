@@ -5,6 +5,7 @@ public class Conditions{
     public void checkMember1(){
         System.out.println("Hey, What's your name? ");
 
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
         if(name.equals("Enock")||name.equals("Faith")||name.equals("Grace")||name.equals("Samuel")){
@@ -16,6 +17,7 @@ public class Conditions{
     //While loop
     public void checkMember2(){
         System.out.println("Hey, What's your name? ");
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
         while(!name.equals("Enock")){
@@ -29,6 +31,7 @@ public class Conditions{
     //Do While loop
     public void checkMember3(){
         System.out.println("Hey, What's your name? ");
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         String name;
         do { 
@@ -41,6 +44,7 @@ public class Conditions{
     //For loop (Using numbers)
     public void checkMember4(){
         System.out.println("Hey, How old are you? ");
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         int age = input.nextInt();
         System.out.println("The following have been your age since you were born: ");
@@ -52,20 +56,14 @@ public class Conditions{
     //Switch
     public void checkMember5(){
         System.out.println("Hey, How old are you? ");
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         int age = input.nextInt();
         System.out.println("Let's find out if your current age is lucky...\n");
 
         switch (age) {
-            case 10:
-            case 20:
-            case 30:
-            case 40:
-            case 50:
-                System.out.println("Congratulations! Your current age is lucky! ");
-                break;
-            default:
-                System.out.println("Oups! You're not in the lucky age. ");
+            case 10, 20, 30, 40, 50 -> System.out.println("Congratulations! Your current age is lucky! ");
+            default -> System.out.println("Oups! You're not in the lucky age. ");
         }
     }
 
