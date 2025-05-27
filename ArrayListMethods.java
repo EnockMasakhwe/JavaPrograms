@@ -6,7 +6,7 @@ public class ArrayListMethods {
 
     public static void main(String[] args) {
         //Putting elements one by one
-        List <Integer> grades = new ArrayList<Integer>();
+        List <Integer> grades = new ArrayList<>();
         grades.add(3);
         grades.add(5);
         grades.add(4);
@@ -16,7 +16,7 @@ public class ArrayListMethods {
         List <Integer> marks = Arrays.asList(0,1,2,7,8,9);
         System.out.println(marks);
         //Working with a 2D list
-        List <List<Integer>> students = new ArrayList<List<Integer>>();
+        List <List<Integer>> students = new ArrayList<>();
         
         students.add(Arrays.asList(1,2,3,4,5)); 
         students.add(Arrays.asList(1,4,2,3,5));

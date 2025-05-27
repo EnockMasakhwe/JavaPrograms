@@ -8,6 +8,7 @@ class Shape{
     }
 }
 class Circle extends Shape{
+    @Override
     public double calculateArea(){
 
         Scanner radius = new Scanner(System.in);
@@ -20,6 +21,7 @@ class Circle extends Shape{
     }
 }
 class Rectangle extends Shape{
+    @Override
     public double calculateArea(){
         Scanner dimensions = new Scanner(System.in);
         System.out.println("Enter the length of the rectangle: ");
@@ -33,6 +35,7 @@ class Rectangle extends Shape{
     }
 }
 class Triangle extends Shape{
+    @Override
     public double calculateArea(){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the base of the triangle: ");
