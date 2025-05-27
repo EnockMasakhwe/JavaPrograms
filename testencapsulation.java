@@ -1,4 +1,4 @@
-public class testencapsulation{
+class Student{
     private int Age;
     private String firstName;
     private String lastName;
@@ -22,9 +22,11 @@ public class testencapsulation{
     public void setAge(int Age){
         this.Age = Age;
     }
+}
 
+public class testEncapsulation{
     public static void main(String[] args) {
-        testencapsulation student = new testencapsulation();
+        Student student = new Student();
         student.setAge(20);
         student.setFirstName("Enock");
         student.setLastName("Eliaro");

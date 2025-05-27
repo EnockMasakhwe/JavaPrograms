@@ -29,11 +29,6 @@ public class ArrayMethods {
         }
 
         System.out.println(Arrays.toString(myArray));
-        /*for(int j = 0;j < size;j++){
-            System.out.println(myArray[j]);
-        }
-        for (int k : myArray) {
-            System.out.println(k);
-        }*/
+        
     }
 }
