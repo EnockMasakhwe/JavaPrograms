@@ -28,5 +28,6 @@ public class personEncapsulation{
         P.setAge(Age);
         
         System.out.println("My name is " + P.getName() + " and I am " + P.getAge() + " years old.");
+        input.close();
     }
 }

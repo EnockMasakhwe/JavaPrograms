@@ -1,5 +1,3 @@
-package JavaDS;
-
 import java.util.HashSet;
 
 public class mergeTwoArrays{

@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 public class nestedLoops {
+    Scanner scanner = new Scanner(System.in);
     public void drawingSquare(){
-        Scanner user = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         System.out.println("Enter the size of the square you would wish to have: ");
-        int columns = user.nextInt();
+        int columns = scanner.nextInt();
         int i, j;
 
         for (i = 1; i < columns; i++) {
@@ -16,9 +17,9 @@ public class nestedLoops {
         }
     }
     public void drawingTriangle(){
-        Scanner user = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows you would wish to have: ");
-        int rows = user.nextInt();
+        int rows = scanner.nextInt();
         int i, j;
 
         for(i = 1; i <= rows;i++){
@@ -29,9 +30,9 @@ public class nestedLoops {
         }
     }
     public void drawingPyramid(){
-        Scanner user = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows you would wish to have: ");
-        int rows = user.nextInt();
+        int rows = scanner.nextInt();
         int i, j, k;
 
         for(i = 1; i <= rows;i++){
@@ -44,7 +45,7 @@ public class nestedLoops {
             System.out.println();
         }
     }
-
+    
     public static void main(String[] args) {
         nestedLoops output = new nestedLoops();
         output.drawingSquare();
@@ -53,5 +54,6 @@ public class nestedLoops {
 
     
     }
+
 }
 

@@ -29,6 +29,6 @@ public class ArrayMethods {
         }
 
         System.out.println(Arrays.toString(myArray));
-        
+        getInput.close();
     }
 }

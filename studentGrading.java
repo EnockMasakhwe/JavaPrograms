@@ -36,6 +36,8 @@ public class studentGrading{
         System.out.println("Unit with missing marks: " + unitName);
         System.out.println("Marks scored: " + unitMarks);
         System.out.println("Grade: " + grade);
+
+        getInput.close();
     }
     public static void main(String[] args) {
         studentGrading student = new studentGrading();

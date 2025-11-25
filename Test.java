@@ -19,5 +19,8 @@ public class Test {
         System.out.println("Your unsorted array: " + Arrays.toString(array));
         Arrays.sort(array);
         System.out.println("Your sorted array: " + Arrays.toString(array));
+
+        userInput.close();  
     }
+
 }
