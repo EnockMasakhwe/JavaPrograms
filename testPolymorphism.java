@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class Shape{
     public double calculateArea(){
         double area = 0;
