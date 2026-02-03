@@ -1,3 +1,4 @@
+package OOPI;
 import java.util.Scanner;
 
 public class studentGrading{

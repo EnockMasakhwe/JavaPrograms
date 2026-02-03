@@ -1,5 +1,5 @@
 //This is a practice code to implement the basic java syntax, Input and Output, and variables concept
-
+package OOPI;
 import java.util.Scanner;
 public class Variables{
     @SuppressWarnings("resource")

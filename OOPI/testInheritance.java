@@ -1,9 +1,10 @@
-class Animal{
+package OOPI;
+class AnimalType{
     public void makeSound(){
         System.out.println("Producing sound..");
     }
 }
-class Mammal extends Animal{
+class Mammal extends AnimalType{
     public void giveBirth(){
         System.out.println("Giving birth..");
     }
@@ -17,7 +18,7 @@ class Dog extends Mammal{
 
 public class testInheritance{
     public static void main(String[] args) {
-        Animal animal = new Animal();
+        AnimalType animal = new AnimalType();
         animal.makeSound();
         Mammal mammal = new Mammal();
         mammal.makeSound();

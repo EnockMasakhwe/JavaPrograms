@@ -1,3 +1,4 @@
+package OOPI;
 public class duplicate{
     int myArray [] = {2,4,8,4,1,9,20,3,7,3,2};
     public void myFuction(){

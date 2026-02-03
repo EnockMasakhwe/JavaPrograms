@@ -1,4 +1,5 @@
-class Student{
+package OOPI;
+class StudentDetails{
     private int Age;
     private String firstName;
     private String lastName;
@@ -26,7 +27,7 @@ class Student{
 
 public class testEncapsulation{
     public static void main(String[] args) {
-        Student student = new Student();
+        StudentDetails student = new StudentDetails();
         student.setAge(20);
         student.setFirstName("Enock");
         student.setLastName("Eliaro");

@@ -1,3 +1,4 @@
+package OOPI;   
 class Animals {
     public void eat(){
             System.out.println("All animals like eating.");

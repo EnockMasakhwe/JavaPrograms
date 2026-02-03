@@ -1,21 +1,22 @@
-class Person {
+package OOPI;
+class human{ 
 	public void activity() {
 		System.out.println("He lives.");
 	}
 }
-class Student extends Person{
+class Student extends human{
 	@Override
 	public void activity() {
 		System.out.println("He studies.");
 	}
 }
-class Teacher extends Person{
+class Teacher extends human{
 	@Override 
 	public void activity() {
 		System.out.println("He teaches.");
 	}
 }
-class Customer extends Person{
+class Customer extends human{
 	@Override
 	public void activity() {
 		System.out.println("He shops.");
@@ -24,8 +25,8 @@ class Customer extends Person{
 
 public class polymorphism2{
 	public static void main(String [] args) {
-		Person p;
-		p = new Person();
+		human p;
+		p = new human();
 		p.activity();
 		p = new Student();
 		p.activity();

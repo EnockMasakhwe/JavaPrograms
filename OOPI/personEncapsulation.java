@@ -1,3 +1,4 @@
+package OOPI;
 import java.util.Scanner;
 class Person{
     private String name;

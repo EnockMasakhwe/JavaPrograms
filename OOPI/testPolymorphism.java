@@ -1,6 +1,7 @@
+package OOPI;
 import java.util.Scanner;
 
-class Shape{
+class Shapes{
     public double calculateArea(){
         double area = 0;
         System.out.println("Calculating area..");
@@ -8,7 +9,7 @@ class Shape{
         return area;
     }
 }
-class Circle extends Shape{
+class Circles extends Shapes{
     @Override
     public double calculateArea(){
 
@@ -21,7 +22,7 @@ class Circle extends Shape{
         return area;
     }
 }
-class Rectangle extends Shape{
+class Rectangles extends Shapes{
     @Override
     public double calculateArea(){
         Scanner dimensions = new Scanner(System.in);
@@ -35,7 +36,7 @@ class Rectangle extends Shape{
         return area;
     }
 }
-class Triangle extends Shape{
+class Triangles extends Shapes{
     @Override
     public double calculateArea(){
         Scanner input = new Scanner(System.in);
@@ -52,14 +53,14 @@ class Triangle extends Shape{
 public class testPolymorphism {
 
     public static void main(String[] args) {
-        Shape s;
-        s = new Shape();
+        Shapes s;
+        s = new Shapes();
         s.calculateArea();
-        s = new Circle();
+        s = new Circles();
         s.calculateArea();
-        s = new Rectangle();
+        s = new Rectangles();
         s.calculateArea();
-        s = new Triangle();
+        s = new Triangles();
         s.calculateArea();
 
     }
